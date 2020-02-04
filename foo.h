@@ -9,7 +9,7 @@ class Foo
     public:
         Foo (std::string value)
             {
-            m_value = value + "ab";    
+            m_value = value + " this is test";    
             }
 
         std::string GetValue () {return m_value;};
