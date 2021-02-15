@@ -5,6 +5,7 @@ class Foo
     {
     private:
         std::string m_value;
+        void InnerFunc ();
 
     public:
         Foo (std::string value)
